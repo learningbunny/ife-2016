@@ -1,0 +1,510 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+h1{
+	color:#393a3a;
+	font-size:21px;
+	font-weight:normal;
+	padding:19px 0 19px 43px;
+/*	margin-left:59px;*/
+	background:url(../images/work7-1.jpg) no-repeat 0% 40%;
+	float:left;
+}
+.clear-float:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;
+}
+header nav{
+	float:right;
+	margin-right:;
+}
+header nav a{
+	float:left;
+	display:block;
+	color:#83868d;
+	font-size:14px;
+	padding:18px 23px 0 23px;
+}
+header nav a:last-child{
+	background:url(../images/work7-2.jpg) no-repeat left 105%;
+}
+header{
+	width:1280px;
+	margin:0 auto;
+	
+}
+.head{
+	/*position:fixed;*/
+	background:#fff;
+}
+section{
+	width:1280px;
+	margin:0 auto;
+}
+.big-image{
+	position:relative;
+	height:690px;
+	background:url(../images/work7-3.jpg);
+}
+.big-image h2{
+	position:absolute;
+	color:#fff;
+	font-size:60px;
+	top:223px;
+	left:117px;
+}
+.big-image p{
+	color:#fff;
+	font-size:21px;
+	width:294px;
+	line-height:27px;
+	position:absolute;
+	top:309px;
+	left:125px;
+}
+.begin{
+	width:330px;
+	height:63px;
+	background:#e7504d;
+	font-size:30px;
+	color:#fff;
+	text-align:center;
+	line-height:63px;
+	position:absolute;
+	top:429px;
+	left:125px;
+}
+.four-part{
+	height:250px;
+	margin:0 auto;
+	width:;
+}
+.four-part li{
+	float:left;
+	width:316px;
+	
+}
+.four-part li .first-p{
+	border-left:0;
+}
+.four-part li p{
+	width:154px;
+	color:#767777;
+	font-size:14px;
+	margin:0 auto;
+	border-left:solid 2px #989899;
+	padding:0 93px;
+}
+.four-part img{
+	display:block;
+	margin:0 auto;
+	padding:36px 0;
+}
+.what{
+	height:360px;
+	background:#edecec;
+}
+.what img{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	padding-top:89px;
+}
+.what p{
+	color:#323333;
+	font-size:54px;
+	text-align:center;
+	padding-top:50px;
+}
+.search{
+	height:341px;
+	background:url(../images/work7-9.jpg);
+}
+
+hr{
+	width:30px;
+	color:#fff;
+	margin:0 auto;
+}
+.search p{
+	color:#fff;
+	font-size:21px;
+	text-align:center;
+}
+.search .last-p{
+	font-size:12px;
+	margin-top:19px;
+	margin-bottom:52px;
+}
+.search p:first-child{
+	padding-top:53px;
+	margin-bottom:11px;
+}
+.items{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	width:236px;
+	height:35px;
+	color:#a8aaaa;
+	font-size:12px;
+	padding-left:12px;
+	margin-right:21px;
+	background:#fff url(../images/work7-10.jpg) no-repeat right 8px center;
+}
+.search input{
+	width:235px;
+	height:35px;
+	background:#be4e48;
+	color:#fff;
+	font-size:14px;
+	border:0;
+}
+.search form{
+	width:1030px;
+	margin:0 auto;
+}
+.shanghai{
+	width:986px;
+	height:605px;
+	margin:0 auto;
+}
+.beijing{
+	height:566px;
+}
+.pic{
+	float:left;
+	margin-top:100px;
+	margin-right:36px;
+}
+.pic img{
+	border:1px solid #e1e1e1;
+	padding:7px;
+	border-bottom:0;
+}
+.pic h3{
+	margin-top:26px;
+	margin-bottom:12px;
+	color:#323333;
+	font-size:12px;
+	text-align:center;
+}
+.pic p{
+	color:#a3a4a4;
+	font-size:12px;
+	text-align:center;
+}
+#spe-pic{
+	margin-top:105px;	
+}
+#spe-pic h3{
+	margin:0;
+}
+#spe-pic p{
+	margin:8px 0;
+}
+.pic:last-child{
+	margin-right:0;
+}
+.bei-left{
+	display:inline-block;
+	width:851px;
+	height:566px;
+	background:url(../images/work7-15.jpg);
+}
+.bei-left h4{
+	text-align:center;
+	color:#fff;
+	font-size:49.47px;
+	padding-top:132px;
+}
+.bei-left p{	
+	text-align:center;
+	color:#fff;
+	font-size:21.91px;
+	padding-bottom:12px;
+}
+.beijing .bei-left .time{
+	font-size:157.79px;
+}
+.bei-right{
+	float:right;
+	width:429px;
+}
+.bei-right h4{
+	color:#323333;
+	font-size:12px;
+	text-align:center;
+	padding-top:288px;
+	padding-bottom:20px;
+}
+.bei-right p{
+	color:#aaa;
+	font-size:12px;
+	width:286px;
+	line-height:2em;
+	margin:0 auto;
+}
+.more{
+	width:103px;
+	height:31px;
+	color:#e46669;
+	line-height:31px;
+	text-align:center;
+	border:1px solid #e46669;
+	margin:0 auto;
+	margin-top:42px;
+	margin-bottom:25px;
+}
+.circle{
+	width:10px;
+	height:10px;
+	border:solid 1px #929292;
+	border-radius:50%;
+	background:#fff;
+	float:left;
+	margin:0 7px;
+}
+.bei-right .fir-cir{
+	background:#929292;
+}
+.wrap-cir{
+	width:78px;
+	margin:0 auto;
+}
+.us{
+	height:521px;
+}
+.us>div{
+	width:426px;
+	height:100%;
+	float:left;
+}
+.us .fir-cir{
+	background:#e7504d;
+}
+
+.us h4{
+	text-align:center;
+	padding-top:172px;
+	padding-bottom:6px;
+}
+.us hr{
+	width:31px;
+	height:2px;
+	background:#fff;
+	margin:18px auto;
+	border:0;
+}
+.us .search-more{
+	width:167px;
+	height:41px;
+	border:1px solid #fff;
+	text-align:center;
+	line-height:41px;
+	margin:0 auto;
+	cursor:pointer;
+}
+.us{
+	color:#fff;
+	font-size:21px;
+	text-align:center;
+}
+.us .sec-cir{
+	color:#000;
+}
+.us .sec-cir hr{
+	background:#000;
+}
+.us .sec-cir div{
+	color:#e74f4d;
+	border:1px solid #e74f4d;
+}
+.us-pic{
+	width:429px;
+	height:521px;
+	cursor:pointer;
+	background:url(../images/work7-16.jpg);
+}
+.us-pic:hover{
+	background:url(../images/work7-17.jpg);
+}
+.volunteer{
+	height:749px;
+}
+.volunteer h4{
+	color:#323333;
+	font-size:21px;
+	text-align:center;
+	padding-top:118px;
+}
+.volunteer .vol-p{
+	color:#aaa;
+	font-size:12px;
+	text-align:center;
+	width:420px;
+	margin:0 auto;
+}
+.volunteer hr{
+	width:30px;
+	height:2px;
+	background:#e74f4d;
+	border:0;
+	margin-top:10px;
+	margin-bottom:12px;
+}
+.vol-con{
+	margin-top:105px;
+}
+.con-left{
+	float:left;
+	width:288px;
+	margin-left:138px;
+}
+.con-left h5{
+	color:#231815;
+	font-size:14px;
+	padding-bottom:27px;
+}
+.con-left p{
+	color:#959291;
+	font-size:12px;
+	padding-bottom:13px;
+}
+.p-more{
+	background:url(../images/work7-18.jpg) no-repeat left 25%;
+	padding-left:17px;
+	float:right;	
+}
+.con-right{
+	width:639px;
+	margin-left:502px;
+}
+.part{
+	width:310px;
+	height:40px;
+	background:#ededee;
+	margin-bottom:17px;
+	margin-right:18px;
+	float:left;
+}
+.part::before{
+	content:attr(data-label);
+	position:absolute;
+	font-size:12px;
+	color:#231815;
+	padding:12px;
+}
+.part input{
+	width:100%;
+	height:100%;
+	border:0;
+	background:#ededee;
+	display:inline-block;
+	text-indent:56px;
+}
+.con-right .par-3 input{
+	text-indent:86px;
+}
+.con-right .par-4{
+	height:120px;
+	width:639px;
+}
+.con-right .par-4 textarea{
+	text-indent:170px;
+	width:100%;
+	background:#ededee;
+	border:0;
+	height:100%;
+}
+.con-right .mit{
+	width:639px;
+}
+.con-right .no-mar{
+	margin-right:0;
+}
+.con-right .las{
+	margin-top:18px;
+}
+footer{
+	height:416px;
+}
+.tran{
+	height:358px;
+	background:#32363e;
+}
+.tran h2{
+	color:#fff;
+	font-size:21px;
+	padding-top:92px;
+	text-align:center;
+}
+.tran .tran-p{
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	padding-top:10px;
+	width:468px;
+	margin:0 auto;
+	line-height:1.5em;
+}
+.tran .mail{
+	width:431px;
+	height:41px;
+	border:0;
+	color:#aaa;
+	font-size:14px;
+}
+.tran .submit{
+	width:80px;
+	height:41px;
+	background:#6f7178;
+	border:0;
+	margin-left:-8px;
+	color:#fff;
+	font-size:15px;
+	vertical-align:bottom;
+}
+.tran form{
+	width:511px;
+	margin:30px auto 37px;
+
+}
+.four-pic{
+	width:188px;
+	margin:0 auto;
+}
+.bottom{
+	height:58px;
+	background:#303039;
+	color:#fff;
+	font-size:12px;
+	position:relative;
+}
+.bottom h5{
+	position:absolute;
+	top:30px;
+	left:100px;
+}
+.bottom p{
+	position:absolute;
+	top:30px;
+	right:40px;
+	
+}
+.bottom a{
+	color:#fff;
+}
+.item1 p,.item2 p{
+	color:#fff;
+}
+
