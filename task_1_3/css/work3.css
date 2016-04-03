@@ -1,0 +1,42 @@
+.wrap{
+	background:#eee;
+	padding:20px;
+	border:1px solid #999;
+}
+.wrap:after{
+	display:block;
+	content:".";
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+.team{
+	width:160px;
+	padding:20px;
+	background:#fff;
+	float:left;
+	margin-right:3px;
+}
+h1{
+	margin:0;
+	font-size:16px;
+	float:right;
+}
+.team-info{
+	background:#fff;
+	margin:0px 140px 0 220px;
+	padding:20px;
+
+}
+.personal{
+	background:#fff;
+	width:80px;
+	padding:20px;
+	float:right;
+}
+.personal img{
+	padding-top:20px;
+}
+.personal img:first-child{
+	padding-top:0;
+}
